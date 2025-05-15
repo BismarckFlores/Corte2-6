@@ -1,8 +1,10 @@
-"""Ejercicio 4: Monitoreo del consumo energético
-Desarrolle un programa que registre el consumo energético de cuatro edificios del campus
-universitario a lo largo de una semana. Por cada día se ingresarán los kilovatios consumidos en
-tres turnos: mañana, tarde y noche. El programa debe calcular el consumo total por edificio y
-generar el promedio semanal correspondiente."""
+"""
+Programa: Monitoreo del Consumo Energético en Edificios Universitarios
+Descripción:
+    Este programa permite registrar y calcular el consumo energético en kWh de cuatro edificios
+    a lo largo de una semana. Por cada edificio, se registra el consumo diario en tres turnos:
+    matutino, vespertino y nocturno. Al finalizar, se presentan los totales y promedios de consumo.
+"""
 
 # Inicialización de variables
 edificios = 4                                                                           # Número de edificios
