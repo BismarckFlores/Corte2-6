@@ -1,4 +1,8 @@
+
+# Este programa simula el estado de dos laboratorios de computación
 import random
+
+# Definimos las constantes
 
 computadoras_en_fila=4
 computadoras_en_columna=5
@@ -14,7 +18,8 @@ for lab in range(2):
                 libres+=1
             else:
                 ocupadas+=1
-    
+    # Almacenar los resultados en variables diferentes para cada laboratorio
+    # Mostrar el estado de cada laboratorio
     if lab==0:
         libres_1=libres
         ocupadas_1=ocupadas 
